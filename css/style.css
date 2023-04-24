@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -44,9 +44,37 @@ q::before, q::after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 /* Do not write a css rule above here! Use the space below  */
 
 
 /* Write your css below here */
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(160 117 85);
+	/* font-size: 50px; */
+	/* font-size: xx-large; */
+}
+
+header{
+    background-color: rgb(207 185 168);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+	flex-direction: row;
+	margin-top: 0px;
+}
+
+nav{
+    margin-left: auto;
+	font-size: 25px;   
+}
+
+blockquote{
+	background-color: rgb(95, 127, 155);
+}
+
