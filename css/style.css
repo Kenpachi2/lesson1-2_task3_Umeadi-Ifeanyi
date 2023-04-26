@@ -50,31 +50,5 @@ table {
 
 
 /* Write your css below here */
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(160 117 85);
-	/* font-size: 50px; */
-	/* font-size: xx-large; */
-}
 
-header{
-    background-color: rgb(207 185 168);
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-	flex-direction: row;
-	margin-top: 0px;
-}
-
-nav{
-    margin-left: auto;
-	font-size: 25px;   
-}
-
-blockquote{
-	background-color: rgb(95, 127, 155);
-}
 
